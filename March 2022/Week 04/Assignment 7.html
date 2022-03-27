@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geekstar Asssignment 3</title>
+    <style>
+        body{
+            background-color: cornflowerblue;
+        }
+        form{
+            background-color: fuchsia;
+            width: 25%;
+             padding: 10px;
+            border: 2px solid red;
+            margin: 20px;
+          
+        }
+        div{
+            margin: 10px;
+            padding: 5px;
+           
+           
+        }
+        input{
+            border: 2px solid yellow;
+            background-color: khaki;
+            color: mediumblue;
+        }
+        label{
+            color:black;
+        }
+        #n{
+            width: 50%;
+            border: 2px solid green;
+            background-color: darkgray;
+            margin: 20px;
+            padding: 10px;
+            color: greenyellow;
+        }
+        b{
+            color: blanchedalmond;
+        }
+        #c{
+            color: darkslategray;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="n">
+        <p><b> Task 2:</b> Create a form having following functionalities: - 
+            Email and password required and password must be 8 characters long 
+            - Create a checkbox for selecting the options having first option checked by default -
+             Use CSS
+             - Name
+             - Phone number (put a check if user entered the right phone number) </p>
+    </div>
+    <form>
+        <div>
+            <label for="s"><b id="c">Email id: </b></label>
+<input type="text"  id="s" name="Email id:" required>
+
+        </div>
+        <div>
+            <label for="r"><b id="c">Password: </b></label>
+<input type="password"  id="r" name="Password" maxlength="8" required>
+        </div>
+        <div>
+            <p id="c">Which is your favourate course
+                :-</p>
+            <label for="o"><b id="c">Use CSS: </b></label>
+<input type="checkbox"  id="o" name="Use CSS" checked>
+<br>
+<label for="op"><b id="c"> Use HTML</b></label>
+<input type="checkbox"  id="op" name="Use HTML" >
+<br>
+<label for="opp"><b id="c"> Use JAVASCRIPT</b></label>
+<input type="checkbox"  id="opp" name="Use JAVASCRIPT" >
+        </div>
+        <div>
+            <label for="p"><b id="c">Name</b></label>
+<input type="text"  id="p" name="Name" value="Vikash Kumar Roy">
+        </div>
+        <div>
+            <label for="rh"><b id="c">Phone number </b></label>
+<input type="number"  id="rh" value="Enter your phone number=" pattern="[0-9]{10}" >
+        </div>
+
+
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nevigation</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: yellow;
+        }
+        li{
+            display: inline;
+            padding: 10px;
+           
+        }
+        li > ul{
+            display: none;
+            border: 2px solid red;
+            background-color: burlywood;
+            border-radius: 10%;
+        }
+        li:hover ul{
+            display:block;
+            position: absolute;
+            background-color:salmon;
+            border: 2px solid red;
+           }
+        a:hover{
+            color:orchid;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+                <ul>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nobis, ipsam sunt sed illum porro molestiae laborum dolor? Laudantium quo repellendus voluptatem voluptatum eaque perferendis corporis veniam dolorum maiores velit?
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Product</a>
+                <ul>
+                    <li>
+                        <a href="#">Mechanical</a>
+                    </li>
+                    <li>
+                        <a href="#">Computer</a>
+
+                    </li>
+                    <li>
+                        <a href="#">Electrical</a>
+                    </li>
+                </ul>
+                
+            <li>
+                <a href="#">Services
+                    <ul>
+                        <li>
+                            <a href="#">Notes</a>
+                        </li>
+                        <li><a href="#">Teaching faculty</a></li>
+                        <li>
+                            <a href="#">skill</a>
+                        </li>
+                    </ul>
+                </a>
+                
+            <li>
+                <a href="#">Contact</a>
+                <ul>
+                    <li>
+                        <a href="#">Email</a>
+                    </li>
+                    <li><a href="#">9934436756</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikash kumar Roy</title>
+    <style>
+        body{
+            background-image: radial-gradient(rgb(233, 229, 10),rgb(73, 83, 218));
+        }
+        .chat{
+            background-image: linear-gradient(red, black);
+            margin: 60px auto;
+            width: 500px;
+            height: 600px;
+            border: 5px solid rgb(67, 175, 67);
+            display: grid;
+            grid-template-rows: repeat(12, 1fr);
+            grid-template-rows: 1fr 7fr 1fr;
+            
+            }
+            .a{
+                border-radius: 0%;
+                background-color: white;
+                border: 5px solid rgb(235, 231, 12);
+                padding: 0px 30px;
+                color: blue;
+                background-image: radial-gradient(pink, orange);
+            }
+            h1{
+                text-shadow: 5px 5px 5px rgb(230, 22, 91);
+            }
+            .search{
+                float: left;
+              padding: 20px 20px;
+               
+            }
+            .search input{
+                border: 3px solid yellow;
+                padding: 10px 60px;
+            }
+
+            .b{
+
+                float: right;
+                padding: 20px;
+               }
+             button{
+                padding:10px 40px;
+                border: 2px solid blue; 
+                background-image: linear-gradient(yellow, green);
+                border-radius: 30%;
+            }
+            button:hover{
+                background-color: white;
+                border: 2px black;
+            }
+            .c2{
+                float: right;
+                background-color: white;
+                border: 2px solid blue;
+                padding: 0px 20px;
+                border-radius: 10%;
+
+            }
+            .c1{
+                background-color: white;
+                width: 100px;
+                padding:  2px 10px;;
+                border: 2px solid blue;
+               text-align: center;
+                border-radius: 10%;
+            }
+             </style>
+</head>
+<body>
+    <div class="chat">
+        <div class=" item a"><h1>WebChat</h1></div>
+        <div class=" item b">
+            <div class="c1">
+               <h3>Hello</h3>
+            </div>
+            <div class="c2">
+                <h3>Hii Vikash</h3>
+            </div>
+        </div>
+        <div class=" item c">
+            <div class="search">
+                <input type="text" class="name" id="serach" placeholder="Enter message">
+            </div>
+            <div class="b">
+                <button>SEND</button>
+                        </div>
+        </div>
+        </div>
+    
+</body>
+</html>

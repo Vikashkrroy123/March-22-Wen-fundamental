@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pratice 3</title>
+    <style>
+        body{
+            align-content: center;
+        }
+        .container{
+            height: 250px;
+            width: 500px;
+            background-color: cornsilk;
+            margin:180px auto;
+            border: 5px solid rgb(136, 79, 79);
+            border-radius: 3%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+          
+            /*grid-auto-rows: 100px;*/
+            grid-auto-rows: minmax(100px, auto);
+           column-gap: 5px;
+            row-gap: 5px;
+          
+            
+        }
+        .j{
+           
+            background-color: rgba(13, 63, 110, 0.425);
+            border: 4px solid rgb(228, 55, 24);
+            border-radius: 3%;
+            padding: 2px;
+            margin: 10px;
+            
+            
+        }
+        .g{
+/*align-self: start;*/
+grid-column: 1/3;
+grid-row: 1/2;
+padding: 20px
+;
+        }
+        .b{
+/*align-self: end;*/
+grid-column: 3;
+grid-row: 1/3;
+padding: 20px
+        }
+          .n{
+              /*justify-self: end;*/
+              padding: 20px
+          } 
+          .m{
+            padding: 20px;  
+          }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+
+ <div class="j g">A</div>
+ <div class="j b">B</div>
+ <div class="j n">C</div>
+ <div class="j m">D</div>
+ 
+    </div>
+    
+    
+</body>
+</html>

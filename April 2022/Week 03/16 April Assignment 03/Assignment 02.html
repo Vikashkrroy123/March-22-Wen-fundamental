@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikash kumar roy</title>
+    <style>
+    *{
+        margin: auto;
+        padding: auto;
+    }
+    body{
+        box-sizing: border-box;
+        background-color: brown;
+    }
+        .container{
+            margin: 100px auto;
+            text-align: center;
+            background-image: linear-gradient(black, red);
+            width: 300px;
+            height: 400px;
+        }
+        button{
+            margin: 200px auto;
+            background-color: blue;
+            color: aliceblue;
+            font-size: 1.0rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 5px;
+            border: 6px solid yellowgreen;
+            text-shadow: 10px 10px 10px black;
+        }
+        input{
+            padding: 7px;
+            border: 6px solid orange;
+        }
+        button:hover{
+            background-color: transparent;
+        }
+    </style>
+    <script>
+        function vik(){
+            const s =document.getElementById('v')
+            alert(s.value)
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <input type="password" name="" id="v">
+        <button onclick="vik()">Submit</button>
+    </div>
+</body>
+</html>

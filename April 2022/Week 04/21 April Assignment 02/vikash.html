@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pratice class</title>
+    <style>
+        *{
+            margin: auto;
+            padding: 0%;
+        }
+        body{
+            background-image: radial-gradient(black, red);
+            box-sizing: border-box;
+        }
+        .main{
+            width: 400px;
+            margin: 50px auto;
+            border: 5px solid rgb(234, 49, 138);
+            box-shadow: 10px 10px 10px black;
+           align-items: center;
+            padding: 10px 20px;
+            background-image: radial-gradient(yellow, white);
+        }
+        h2{
+            text-shadow: 5px 5px 5px rgb(244, 22, 22);
+            letter-spacing: 5px;
+           color: rgb(209, 75, 75);
+            font-size: 2.2rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        hr{
+            border: solid blue;
+            height: 0px;
+            width: 90px;
+            color: blue;
+            font-weight: 400;
+            background-color: blue;
+            }
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            margin: 60px 20px 20px 20px;
+            box-shadow: 10px 10px 10px black;
+            padding: 10px 30px;
+        }
+        img{
+            margin: 15px;
+            border-radius: 50%;
+            border-right: 10px solid blue;
+            box-shadow: 10px 10px 10px black;
+        }
+        .name{
+            margin: 5px;
+            color: black;
+            letter-spacing: 3px;
+            font-size: 1.1 rem;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .id{
+            margin: 5px;
+            font-weight: 100;
+            color: blue;
+        }
+        button{
+            color: white;
+            all: unset;
+            color: blue;
+            background-color: cornsilk;
+        margin: 5px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 2.2rem;
+        text-shadow: 5px 5px 5px rgb(14, 13, 13);
+           
+        }
+        #h{
+            border: 2px solid blue;
+            background-color: cornsilk;
+            color: brown;
+            padding: 10px 20px;
+            font-size: 1.0rem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+        #h:hover{
+            background-color: cornflowerblue;
+           color: black;
+          
+        }
+        button:hover{
+            background-color: cornflowerblue;
+            color: black;
+        }
+        .section{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <section class="section">
+            <div>
+                <h2>Our Reviews</h2>
+                <br>
+                <hr>
+            </div>
+            <div class="container">
+                <div class="pcture">
+                    <img class="pic" src="https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg" alt="Image could not be uploded" height="200px" width="200px">
+                </div>
+                    <h4 class="name">susan smith</h4>
+                    <h4 class="id">web developer</h4>
+                    <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dicta nisi fugit error ut amet magnam non voluptatum ullam, deserunt, quam accusamus voluptatem sapiente similique, omnis optio. Corporis, dolores reiciendis.</p>
+                    <div class="but">
+                        <button class="m"><</button>
+                        <button class="l">></button>
+                    </div>
+                    <button class="n">Surprise me</button>
+                
+            </div>
+        </section>
+    </div>
+    
+
+
+
+    <script src="vik.js"></script>
+</body>
+</html>

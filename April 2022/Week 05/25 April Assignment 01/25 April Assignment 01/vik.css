@@ -1,0 +1,63 @@
+
+ *{
+    margin: auto;
+    padding: auto;
+    }
+    body{
+        background-image: radial-gradient(rgba(229, 79, 79, 0.054), rgb(220, 180, 180));
+        box-sizing: border-box;
+    
+    }
+.header{
+    background-color: blue;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    }
+    .a{
+        color: white;
+        font-size: 1.1rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    input{
+        width: 300px;
+        padding: 10px;
+        border: none;
+    }
+    input:focus{
+        outline: none;
+    }
+    .nav{
+        background-color: chocolate;
+        width: 100vw;
+        height: 7vh;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    button{
+        width: 300px;
+        padding: 10px;
+        all: unset;
+        color: white;
+        font-size: 1.1rem;
+        font-family: 'Times New Roman', Times, serif;
+      
+    }
+    button:hover{
+        margin: 5px 0px;
+        background-color: rgb(31, 31, 156);
+        border-radius: 20px;
+    }
+    p{
+        font-size: 1.5rem;
+        color: rgb(243, 2, 14);
+        font-family: 'Times New Roman', Times, serif;
+      padding: 20px;
+    }
+    .incative{
+        visibility: hidden;
+    }
+    .btn{
+        background-color: rgb(230, 151, 32);
+    }
+
